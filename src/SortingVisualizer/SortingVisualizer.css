@@ -1,0 +1,42 @@
+.array-container {
+    justify-content: center; /* Center items horizontally */
+    /* Optional: Align items vertically in the center */
+    align-items: center;
+    /* Optional: Set a maximum width to limit container width */
+    max-width: 1920px; /* Adjust as needed */
+    /* Optional: Add padding or margin as needed */
+    padding: 20px;
+
+    position: relative;
+
+    /* position: absolute; */
+    /* left: 100px; */
+    /* top: 100px; */
+}
+
+.array-bar {
+    width: 2px;
+    background-color: lightblue;
+    display: inline-block;
+    margin: 0 1px;
+}
+
+.button-container {
+    display: flex; /* Use Flexbox */
+    position: absolute; /* Position the container absolutely within the array container */
+    top: 100%; /* Position the button 50% down from the top of the container */
+    left: 50%; /* Position the button 50% from the left of the container */
+    transform: translate(-50%, -50%); /* Center the button within the container */
+}
+
+.button {
+    /* Additional styling for buttons */
+    margin-right: 5px; /* Add margin between buttons */
+}
+
+/* .bar-value{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 5px;
+} */
